@@ -1,14 +1,14 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
-config.paperclip_defaults = {
-  :storage => :s3,
-  :s3_credentials => {
-    :bucket => ENV['S3_photobrag'],
-    :access_key_id => ENV['AKIAIEOOVPMXOGA63SBQ'],
-    :secret_access_key => ENV['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']
-  }
-}
+# config.paperclip_defaults = {
+#   :storage => :s3,
+#   :s3_credentials => {
+#     :bucket => ENV['S3_photobrag'],
+#     :access_key_id => ENV['AKIAIEOOVPMXOGA63SBQ'],
+#     :secret_access_key => ENV['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']
+#   }
+# }
 
 
 
